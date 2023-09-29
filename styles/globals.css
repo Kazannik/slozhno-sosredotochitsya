@@ -48,7 +48,7 @@ a {
 
 a:hover {
   border-block-end: 1px solid var(--text-color);
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 a:focus {
