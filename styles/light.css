@@ -1,18 +1,36 @@
 .page.theme_light {
-  --background-color: #FFF1F7;
-  --section-frame-color: #FF8DCB;
+  --background-color: #fff1f7;
+  --section-frame-color: #ff8dcb;
   --section-title-color: #353430;
   --section-title-frame-color: #353430;
-  --title-color: #FFC2E6;
-  --shadow-color: #FF0070;
+  --title-color: #ffc2e6;
+  --shadow-color: #ff0070;
   --text-color: #353430;
   --hover-color: #32312d66;
   --cover-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
-  
-  :root .decorated__tape {
+  :root {
+    /* Дублируем переменные светлой темы */
+    background-image: url(../images/cover-image-light.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #353430;
+    background-color:  #fff1f7;
+    --background-color: #fff1f7;
+    --section-frame-color: #ff8dcb;
+    --section-title-color: #353430;
+    --section-title-frame-color: #353430;
+    --title-color: #ffc2e6;
+    --shadow-color: #ff0070;
+    --text-color: #353430;
+    --hover-color: #32312d66;
+    --cover-image: url(../images/cover-image-light.png);
+  }
+
+  .page.theme_light .decorated__tape {
     opacity: 0;
   }
 }

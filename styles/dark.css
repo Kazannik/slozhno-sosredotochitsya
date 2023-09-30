@@ -1,4 +1,4 @@
-.page.theme_dark {
+.page.theme_dark   {
   --background-color: #000028;
   --section-frame-color: #FF0070;
   --section-title-color: #FF0070;
@@ -12,4 +12,10 @@
 
 .page.theme_dark .decorated__tape {
   opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .decorated__tape {
+    opacity: 1;
+  }
 }
