@@ -145,6 +145,7 @@
   grid-row: 1;
   color: var(--section-title-color);
   font-weight: 700;
+  min-width: 314px;
   font-size: inherit;
 }
 
@@ -281,6 +282,10 @@
     gap: 12px;
   }
 
+  .main__section-title {
+    min-width: 236px;
+  }
+
   .horizontal-layout {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -334,6 +339,7 @@
   }
 
   .main__section-title {
+    min-width: 236px;
     grid-column: 1;
     grid-row: 1;
     margin-bottom: 10px;

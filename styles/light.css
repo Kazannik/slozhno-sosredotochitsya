@@ -9,3 +9,10 @@
   --hover-color: #32312d66;
   --cover-image: url(../images/cover-image-light.png);
 }
+
+@media (prefers-color-scheme: light) {
+  
+  :root .decorated__tape {
+    opacity: 0;
+  }
+}

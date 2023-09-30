@@ -9,3 +9,7 @@
   --hover-color: #ff007066;
   --cover-image: url(../images/cover-image-dark.png);
 }
+
+.page.theme_dark .decorated__tape {
+  opacity: 1;
+}
