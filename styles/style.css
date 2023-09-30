@@ -135,7 +135,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  gap: 17.5px;
+  gap: 21.5px;
   margin: 60px var(--screen-margin-size);
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
 }
