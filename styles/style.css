@@ -38,7 +38,7 @@
   grid-row: 4;
   justify-self: end;
   align-self: center;
-  margin: 0 var(--screen-margin-size);
+  margin-right: var(--screen-margin-size);
   color: var(--section-title-frame-color);
   font-weight: 700;
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
@@ -299,7 +299,7 @@
 }
 
 @media (width <= 375px) {
-  
+
   :root {
     --screen-margin-size: 10px;
   }
