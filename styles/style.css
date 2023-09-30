@@ -284,6 +284,10 @@
     gap: 12px;
   }
 
+  .main__section { 
+    gap: 22.5px;
+  }
+
   .main__section-title {
     min-width: 236px;
   }
