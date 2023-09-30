@@ -18,55 +18,51 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="header-layer">
-        <h1 class="header-layer__title">no focus</h1>
-        <p class="header__text">
-          Что делать, когда не можешь делать ничего<br />Или почему нам так
-          сложно сконцентрироваться, особенно когда очень надо
-        </p>
+
+      <h1 class="header-title">no focus</h1>
+      <p class="header-text">
+        Что делать, когда не можешь делать ничего<br />Или почему нам так сложно
+        сконцентрироваться, особенно когда очень надо
+      </p>
+
+      <div class="decorated__top-marker tape-marker"></div>
+
+      <div class="decorated__tape">
+        <p class="decorated__tape-label" aria-hidden="true">REC</p>
+        <div class="decorated__tape-lamp"></div>
       </div>
-      <div class="decoration">
-        <div class="decoration-top-marker tape-marker"></div>
-        <div class="header-top-field">
-          <div class="header-decoration-top__tape">
-            <p class="header-decoration-top__tape-label" aria-hidden="true">
-              REC
-            </p>
-            <div class="header-decoration-top__tape-lamp"></div>
-          </div>
-          <nav class="header__theme-menu">
-            <ul class="header__theme-menu-list">
-              <li class="header__theme-menu-item">
-                <button
-                  class="header__theme-menu-button header__theme-menu-button_type_light"
-                >
-                  день
-                </button>
-              </li>
-              <li class="header__theme-menu-item">
-                <button
-                  class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-                  disabled
-                >
-                  авто
-                </button>
-              </li>
-              <li class="header__theme-menu-item">
-                <button
-                  class="header__theme-menu-button header__theme-menu-button_type_dark"
-                >
-                  неон
-                </button>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="decoration-bottom-marker tape-marker"></div>
-      </div>
+
+      <nav class="header__theme-menu">
+        <ul class="header__theme-menu-list">
+          <li class="header__theme-menu-item">
+            <button
+              class="header__theme-menu-button header__theme-menu-button_type_light"
+            >
+              день
+            </button>
+          </li>
+          <li class="header__theme-menu-item">
+            <button
+              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+              disabled
+            >
+              авто
+            </button>
+          </li>
+          <li class="header__theme-menu-item">
+            <button
+              class="header__theme-menu-button header__theme-menu-button_type_dark"
+            >
+              неон
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="decorated__bottom-marker tape-marker"></div>
     </header>
 
     <main>
-      
       <section class="main__section">
         <h2 class="main__section-title">Почему сосредоточиться так сложно</h2>
         <div class="main__section-cards-wrapper vertical-layout">
@@ -206,8 +202,6 @@
         </div>
       </section>
 
-
-
       <section class="main__section section-images">
         <h3 class="main__section-card-title">А можно в картинках?</h3>
         <img
@@ -243,10 +237,10 @@
       </section>
     </main>
 
-    <footer class="footer decorated-zone decoration">
-      <div class="tape-marker"></div>
+    <footer class="footer decorated-zone">
+      <div class="decorated__top-marker tape-marker"></div>
       <h2 class="footer__title">focus</h2>
-      <div class="tape-marker"></div>
+      <div class="decorated__bottom-marker tape-marker"></div>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

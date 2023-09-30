@@ -8,4 +8,6 @@
   --text-color: #f1b2ce;
   --hover-color: #ff007066;
   --cover-image: url(../images/cover-image-dark.png);
+
+  --screen-margin-size: 20px;
 }
