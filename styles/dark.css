@@ -1,12 +1,12 @@
 .page.theme_dark {
   --background-color: #000028;
-  --section-frame-color: #ff0070;
-  --section-title-color: #ff0070;
+  --section-frame-color: #FF0070;
+  --section-title-color: #FF0070;
   --section-title-frame-color: #000028;
-  --title-color: #db00ff;
-  --shadow-color: #ff0070;
-  --text-color: #f1b2ce;
-  --hover-color: #ff007066;
+  --title-color: #DB00FF;
+  --shadow-color: #FF0070;
+  --text-color: #F1B2CE;
+  --hover-color: #FF007066;
   --cover-image: url(../images/cover-image-dark.png);
 }
 
