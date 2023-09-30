@@ -12,7 +12,6 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Дублируем переменные светлой темы */
     background-image: url(../images/cover-image-light.png);
     background-repeat: no-repeat;
     background-size: cover;
