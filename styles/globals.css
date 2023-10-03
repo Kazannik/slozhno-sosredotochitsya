@@ -43,7 +43,7 @@ a {
 }
 
 a {
-  text-shadow: 1px 1px 0 var(--section-frame-color);
+  text-shadow: 1px 1px 0 var(--link-shadow-color);
 }
 
 a:hover {
@@ -60,7 +60,7 @@ a:focus-visible {
 }
 
 button:hover {
-  outline: 1px solid var(--hover-color);
+  outline: 1px solid var(--button-border-hover-color);
   cursor: pointer;
 }
 
@@ -69,5 +69,5 @@ button:focus {
 }
 
 button:focus-visible {
-  border-bottom: 1px solid var(--section-title-color);
+  border-bottom: 1px solid var(--button-text-color);
 }
