@@ -3,14 +3,14 @@
   --header-title-shadow-color: #ff0070;
   --header-title-shadow-light-color: #ff8dcb;
   --title-text-color: #353430;
-  --title-text-back-color: #ff8dcb;
+  --subtitle-text-color: #353430;
+  --subtitle-text-back-color: #ff8dcb;
   --text-color: #353430;
   --link-shadow-color: #ff8dcb;
   --backcolor: #fff1f7;
 
   --button-text-color: #353430;
-  --button-border-color: #ff0070;
-  --button-border-hover-color: #ff007066;
+  --button-border-hover-color: rgba(50 49 45/ 0.40);
 
   --cover-image: url(../images/cover-image-light.png);
 }
@@ -25,15 +25,15 @@
     --header-title-shadow-color: #ff0070;
     --header-title-shadow-light-color: #ff8dcb;
     --title-text-color: #353430;
-    --title-text-back-color: #ff8dcb;
+    --subtitle-text-color: #353430;
+    --subtitle-text-back-color: #ff8dcb;
     --text-color: #353430;
     --link-shadow-color: #ff8dcb;
     --backcolor: #fff1f7;
 
     --button-text-color: #353430;
-    --button-border-color: #ff0070;
-    --button-border-hover-color: #ff007066;
-
+    --button-border-hover-color: rgba(50 49 45/ 0.40);
+    
     --cover-image: url(../images/cover-image-light.png);
   }
 
