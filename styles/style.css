@@ -338,6 +338,7 @@
     margin-bottom: 40px;
     block-size: 668px;
     max-block-size: 668px;
+    min-block-size: 668px;
   }
 
   .header__title {
