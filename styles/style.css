@@ -317,11 +317,21 @@
 
 @media (width <= 540px) {
   .main__section {
-    grid-template-columns: minmax(170px, 1fr) repeat(2, 1fr);
+    grid-template-columns: minmax(191px, calc(50% - 20px)) repeat(
+        2,
+        calc(25% - 10px)
+      );
   }
 
   .main__section-title {
-    min-width: 170px;
+    min-width: calc(50% - 20px);
+  }
+}
+
+@media (width <= 432px) {
+  .main__section {
+    display: flex;
+    flex-direction: column;
   }
 }
 
