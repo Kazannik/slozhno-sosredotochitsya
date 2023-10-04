@@ -12,7 +12,7 @@
   background-size: cover;
   block-size: 100vb;
   max-inline-size: vi;
-  max-block-size: 768px;
+  min-block-size: 768px;
 }
 
 .decorated-zone {
@@ -132,11 +132,10 @@
 }
 
 .main__section {
-  overflow: hidden;
-  max-width: 100%;
   display: grid;
-  grid-template-columns: minmax(170px, 1fr) repeat(2, 1fr);
+  grid-template-columns: minmax(236px, 1fr) repeat(2, 1fr);
   gap: 20px;
+  max-width: 100%;
   margin: 60px var(--screen-margin-size);
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
 }
@@ -293,8 +292,11 @@
   }
 
   .main__section-title {
-    min-width: 236px;
-    max-width: calc(50% - 40px);
+    min-width: 33%;
+  }
+
+  .vertical-layout {
+    max-width: 100%;
   }
 
   .horizontal-layout {
@@ -313,7 +315,11 @@
   }
 }
 
-@media (width <= 462px) {
+@media (width <= 540px) {
+  .main__section {
+    grid-template-columns: minmax(170px, 1fr) repeat(2, 1fr);
+  }
+
   .main__section-title {
     min-width: 170px;
   }
@@ -362,6 +368,7 @@
   .main__section-title {
     grid-column: 1;
     grid-row: 1;
+    min-width: 355px;
     margin-bottom: 10px;
   }
 
